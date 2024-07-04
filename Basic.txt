@@ -1,0 +1,14 @@
+conn 
+
+SET SERVEROUTPUT ON;
+
+SET LINESIZE 250;
+
+
+exec SYS.GetPropertyRecord(234689327403);
+exec SYS.GetTenantDetails(112868);
+exec SYS.SearchPropertyForRent('Panama');
+exec SYS.GetRentHistory(122838);
+exec SYS.CreateNewUser(256,'Dax',25,6,'Hyderabad','Telangana','ah',26593,0,1,0,0,9898040923,'Dax','dax123');
+exec SYS.InsertPropertyRecord(256,101,3,400,500,2023,6,'abcd','Telangana','ah',26593,25,1564,'RES',5);
+
